@@ -1,0 +1,23 @@
+Aksiyon Planı
+
+1:
+1.1: tarih sütunu datasetleri birleştirmek için ortak id sütunu görevi üstlenecek.
+
+2:
+2.1: izmir hava durumu outer dataset için nan değerleri %30'dan büyük olan sütunlar tamamen kaldırılacak.
+2.2: geri kalan sütunlardaki nan değerlerin 0 ile yer değiştirelecek.
+2.3: bu yapılan işlem bir günün tüm saatlerini temsil edecek.
+
+3:
+3.1: major event day ile ilgili binary bir sütun train içinde oluşturulacak. (1: kesinti var, 0: kesinti yok)
+
+4:
+4.1: daha fazla weight eklemek için verilen saat sabah,öğle,akşam ve gece olmak üzere 4 adet sınıflandırılmaya tabii tutulacak.
+
+5:
+5.1: daha fazla weight eklemek için verilen gün hafta içi ve hafta sonu olmak ikili numerik bir sütun oluşturulacak.
+5.2: daha fazla weight eklemek için verilen günün haftanın hangi günü olduğu ile ilgili bir sütun oluşturulacak.
+5.3: daha fazla weight eklemek için verilen günün yılın kaçıncı haftası olmasıyla ilgili numerik bir sütun oluşturulacak.
+
+7:
+7.1: uygulama toparlanıp, gerekli kodlarla beraber submission.csv hazır hale getirilecek.
